@@ -65,7 +65,7 @@ margin: 0 35px 0 230px;
     color: #181818;
 }
 .section-info{
-    color: rgb(51, 48, 48);
+    color: #757575;
 }
 .secondary-BG{
 background-color: #fff8f3;
@@ -82,10 +82,53 @@ width: 1140px;
 margin: 0 auto; 
 }
 .item-info{
-    font-size: ;
     font-weight: bold;
 }
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-ok{
+    margin: 0px 150px;
+    padding:30px 30px 33px 30px;
+}
+.skill{
+margin: 0 auto;
+margin-bottom: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+}
+.skill-item{width: 267px;
+    height: 377px;
+     padding: 30px 30px 33px 30px;
+     margin-right: 20px;
+     margin-left: 20px;
+     text-align: left;
+    box-shadow: #F3F3F3 5px 5px 5px;
+    grid-area: 24px;
+}
+.skill-title{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.skill-about{
+text-align: left;
+font-size: 16px;
+color: #757575;
+border: 0px 24px;
 }
