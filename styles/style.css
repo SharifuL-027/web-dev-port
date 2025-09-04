@@ -58,5 +58,34 @@ margin: 0 35px 0 230px;
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left,bottom right;
-    padding: 5px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-info{
+    color: rgb(51, 48, 48);
+}
+.secondary-BG{
+background-color: #fff8f3;
+}
+.about{
+border-radius: 10px;
+padding: 130px  150px;
+text-align: center;
+margin-top: 130px; 
+margin-bottom: 130px;
+}
+main{
+width: 1140px;
+margin: 0 auto; 
+}
+.item-info{
+    font-size: ;
+    font-weight: bold;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
