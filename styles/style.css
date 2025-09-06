@@ -26,11 +26,13 @@ nav{ display: flex;
 }
 .bf{
     background-color: tomato;
-    color: antiquewhite;
-    border: 10px;
+    color: #FFFFFF;
+    border: 0px;
     font-size: large;
+    font-weight: bold;
     border-radius: 5px;
     padding: 18px 35px;
+    margin-top: 24px;
 }
 .banner-content{
    width: 580px;
@@ -164,4 +166,30 @@ font-weight: bold;
 .marjin{
     margin-top: 2px;
     margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 50px;
+
+}
+.footer-column{
+    width: 50%;
+    padding: 18px;
+}
+.social-links{
+margin-right: 24px;
+gap: 300px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-top: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    font-family: 'Times New Roman', Times, serif;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
